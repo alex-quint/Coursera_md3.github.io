@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soucion modulo 3</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <nav nav id="header-nav" class="navbar navbar-default">
-            <div class="container">
-            </div>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
             <div class="navbar-brand">
-                <p>Food, LLC</p>
+                <a>Food, LLC</a>
             </div>
-            <button class="navbar-toggler visible-xs" type="button" data-toggle="collapse" data-target="#menuItems" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Navigation Toggle">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collaplse visible-xs" id="menuItems">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#ChickenSection">Chicken</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#BeefSection">Beef</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#SushiSection">Sushi</a>
-                    </li>
-                </ul>
+          
+            <div class="collapse navbar-collapse" id="navbarMenu">
+              <ul class="navbar-nav d-xs-block d-sm-none">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#ChickenSection">Chicken</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#BeefSection">Beef</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#SushiSection">Sushi</a>
+                </li>
+              </ul>
             </div>
-            </div>
-        </nav>
+          </nav>
     </header>
     <div class="text-center">
-        <h1 >Our Menu</h1>
+        <h1>Our Menu</h1>
     </div>
     <div>
         <div id="ChickenSection">
@@ -51,8 +50,6 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, et! Illo sapiente similique amet, optio sit quibusdam asperiores dolore ipsum mollitia nemo facere dolorem totam, inventore saepe doloribus fugit hic.</p>
         </div>
     </div>
-
-    
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
