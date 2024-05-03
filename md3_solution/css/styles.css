@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(223, 207, 118);
+    background-color: rgb(223, 220, 206);
 }
 /*nav*/
 #nav-header {
@@ -27,7 +27,14 @@ body {
 }
 .food {
     margin: 15px;
-    padding: 10px 5px 5px 5px;
-    background-color: rgb(255, 150, 108);
+    padding: 10px 20px 5px 20px;
+    background-color: rgb(228, 201, 156);
     height: 1000px;
+}
+
+@media (max-width: 575px) {
+    .food {
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+    }
 }
